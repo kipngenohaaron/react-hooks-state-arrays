@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import SpicyFoodList from "./components/SpicyFoodList"; // Correctly import SpicyFoodList
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<SpicyFoodList />, document.getElementById("root"));
